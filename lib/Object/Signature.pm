@@ -6,7 +6,7 @@ use prefork 'Digest::MD5';
 
 use vars qw{$VERSION};
 BEGIN {
-	$VERSION = '0.01';
+	$VERSION = '0.02';
 }
 
 # The main (only) method.
@@ -66,7 +66,7 @@ All bugs should be filed via the bug tracker at
 
 L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Object%3A%3ASignature>
 
-For other issues, contact the author
+For other issues, or commercial enhancement or support, contact the author.
 
 =head1 AUTHORS
 
