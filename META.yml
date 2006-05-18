@@ -1,16 +1,19 @@
-name: Object-Signature
-version: 1.03
-abstract: 
-author: Adam Kennedy <cpan@ali.as>, L<http://ali.as/>
-license: perl
+
+no_index: 
+  directory: 
+    - inc
+    - t
+generated_by: Module::Install version 0.62
 distribution_type: module
-build_requires:
+version: 1.04
+name: Object-Signature
+author: Adam Kennedy <cpan@ali.as>
+license: perl
+build_requires: 
   Test::More: 0.47
   File::Spec: 0.80
-requires:
-  Storable: 2.11
+requires: 
+  perl: 5.005
   Digest::MD5: 2.00
-no_index:
-  directory:
-    - inc
-generated_by: Module::Install version 0.45
+  Storable: 2.11
+abstract: 
