@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl
 
 # Load testing for Object::Signature
 
@@ -10,7 +10,5 @@ BEGIN {
 
 use Test::More tests => 2;
 
-ok( $] >= 5.005, "Your perl is new enough" );
-use_ok('Object::Signature');
-
-exit(0);
+use_ok('Object::Signature'      );
+use_ok('Object::Signature::File');
